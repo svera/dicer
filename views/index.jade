@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.container
+    label Name:
+    input.form-control(type='text' ng-model='yourName' placeholder='Enter a name here')
+    hr
+    h1 Hello {{yourName}}!
