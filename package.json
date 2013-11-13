@@ -1,0 +1,13 @@
+{
+  "name": "Dicer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "connect-coffee-script": "~0.1.6"
+  }
+}
